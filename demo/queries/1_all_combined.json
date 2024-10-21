@@ -1,0 +1,4 @@
+{
+  "operationName": "allCombined",
+  "query": "query allCombined { employee(id: 1) { id details { forename location { key { name } } } hobbies { __typename } } teammates(team: OPERATIONS) { id details { forename } products } teammates(team: OPERATIONS) {  id ...EmployeeNameFragment  products } productTypes { ... on Documentation { url(product: SDK) urls(products: [COSMO, MARKETING]) } ... on Consultancy { lead { ...EmployeeNameFragment } name } } a: findEmployees(criteria: { hasPets: true, nationality: UKRAINIAN, nested: { maritalStatus: ENGAGED } }) { ...EmployeeNameFragment } b: findEmployees(criteria: { hasPets: true, nationality: GERMAN, nested: { maritalStatus: MARRIED, hasChildren: true } }) { ...EmployeeNameFragment } } fragment EmployeeNameFragment on Employee {  details {  forename  } }"
+}

@@ -10,10 +10,10 @@ import (
 
 	"github.com/rs/cors"
 
-	"github.com/99designs/gqlgen/graphql"
+	// "github.com/99designs/gqlgen/graphql"
 	"github.com/99designs/gqlgen/graphql/handler/debug"
 	"github.com/99designs/gqlgen/graphql/playground"
-	"github.com/ravilushqa/otelgqlgen"
+	// "github.com/ravilushqa/otelgqlgen"
 	"github.com/wundergraph/cosmo/demo/pkg/injector"
 	"github.com/wundergraph/cosmo/demo/pkg/otel"
 	"github.com/wundergraph/cosmo/demo/pkg/subgraphs"
@@ -36,9 +36,9 @@ func main() {
 	srv := subgraphs.NewDemoServer(products_fg.NewSchema(nil))
 
 	srv.Use(&debug.Tracer{})
-	srv.Use(otelgqlgen.Middleware(otelgqlgen.WithCreateSpanFromFields(func(ctx *graphql.FieldContext) bool {
-		return true
-	})))
+	// srv.Use(otelgqlgen.Middleware(otelgqlgen.WithCreateSpanFromFields(func(ctx *graphql.FieldContext) bool {
+	// 	return true
+	// })))
 
 	c := cors.New(cors.Options{
 		AllowedOrigins: []string{"*"},
