@@ -1,7 +1,7 @@
 package main
 
 import (
-	// "context"
+	"context"
 	"fmt"
 	"log"
 	"net/http"
@@ -9,12 +9,12 @@ import (
 
 	"github.com/rs/cors"
 
-	// "github.com/99designs/gqlgen/graphql"
-	// "github.com/99designs/gqlgen/graphql/handler/debug"
+	"github.com/99designs/gqlgen/graphql"
+	"github.com/99designs/gqlgen/graphql/handler/debug"
 	"github.com/99designs/gqlgen/graphql/playground"
-	// "github.com/ravilushqa/otelgqlgen"
+	"github.com/ravilushqa/otelgqlgen"
 	"github.com/wundergraph/cosmo/demo/pkg/injector"
-	// "github.com/wundergraph/cosmo/demo/pkg/otel"
+	"github.com/wundergraph/cosmo/demo/pkg/otel"
 	"github.com/wundergraph/cosmo/demo/pkg/subgraphs"
 	"github.com/wundergraph/cosmo/demo/pkg/subgraphs/test1"
 	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
@@ -26,7 +26,7 @@ const (
 )
 
 func main() {
-	// otel.InitTracing(context.Background(), otel.Options{ServiceName: serviceName})
+	otel.InitTracing(context.Background(), otel.Options{ServiceName: serviceName})
 
 	port := os.Getenv("PORT")
 	if port == "" {
@@ -35,10 +35,10 @@ func main() {
 
 	srv := subgraphs.NewDemoServer(test1.NewSchema(nil))
 
-	// srv.Use(&debug.Tracer{})
-	// srv.Use(otelgqlgen.Middleware(otelgqlgen.WithCreateSpanFromFields(func(ctx *graphql.FieldContext) bool {
-	// 	return true
-	// })))
+	srv.Use(&debug.Tracer{})
+	srv.Use(otelgqlgen.Middleware(otelgqlgen.WithCreateSpanFromFields(func(ctx *graphql.FieldContext) bool {
+		return true
+	})))
 
 	c := cors.New(cors.Options{
 		AllowedOrigins: []string{"*"},
