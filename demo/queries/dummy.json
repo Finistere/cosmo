@@ -1,0 +1,4 @@
+{
+  "query": "query ($var0: Int!) {\n  employee(id: $var0) {\n    id\n    details {\n      forename\n      location {\n        key {\n          name\n        }\n      }\n    }\n  }\n  teammates(team: OPERATIONS) {\n    id\n    details {\n      forename\n    }\n  }\n}\n",
+  "variables": { "var0": 1 }
+}

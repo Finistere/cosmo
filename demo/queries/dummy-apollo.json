@@ -1,0 +1,4 @@
+{
+  "query": "query allCombined__employees__0{employee(id:1){__typename ...EmployeeNameFragment id details{location{key{name}}}}teammates(team:OPERATIONS){__typename ...EmployeeNameFragment id}}fragment EmployeeNameFragment on Employee{details{forename}}",
+  "variables": { "var0": 1 }
+}
