@@ -1,3 +1,246 @@
+query ($var1: Int!, $var3: Int!, $var2: Int!, $var0: Int!) {
+  bigResponse(artificialDelay: $var0, bigObjects: $var1, nestedObjects: $var2, deeplyNestedObjects: $var3) {
+    a: nestedObjects {
+      deeplyNestedObjects {
+        aFieldOnDeeplyNestedObject
+        bFieldOnDeeplyNestedObject
+        cFieldOnDeeplyNestedObject
+        dFieldOnDeeplyNestedObject
+        eFieldOnDeeplyNestedObject
+        fFieldOnDeeplyNestedObject
+        gFieldOnDeeplyNestedObject
+        hFieldOnDeeplyNestedObject
+        iFieldOnDeeplyNestedObject
+        jFieldOnDeeplyNestedObject
+        kFieldOnDeeplyNestedObject
+        lFieldOnDeeplyNestedObject
+        mFieldOnDeeplyNestedObject
+        nFieldOnDeeplyNestedObject
+        oFieldOnDeeplyNestedObject
+        pFieldOnDeeplyNestedObject
+        qFieldOnDeeplyNestedObject
+        rFieldOnDeeplyNestedObject
+        sFieldOnDeeplyNestedObject
+        tFieldOnDeeplyNestedObject
+        uFieldOnDeeplyNestedObject
+        vFieldOnDeeplyNestedObject
+        wFieldOnDeeplyNestedObject
+        xFieldOnDeeplyNestedObject
+        yFieldOnDeeplyNestedObject
+        zFieldOnDeeplyNestedObject
+      }
+    }
+    b: nestedObjects {
+      deeplyNestedObjects {
+        aFieldOnDeeplyNestedObject
+        bFieldOnDeeplyNestedObject
+        cFieldOnDeeplyNestedObject
+        dFieldOnDeeplyNestedObject
+        eFieldOnDeeplyNestedObject
+        fFieldOnDeeplyNestedObject
+        gFieldOnDeeplyNestedObject
+        hFieldOnDeeplyNestedObject
+        iFieldOnDeeplyNestedObject
+        jFieldOnDeeplyNestedObject
+        kFieldOnDeeplyNestedObject
+        lFieldOnDeeplyNestedObject
+        mFieldOnDeeplyNestedObject
+        nFieldOnDeeplyNestedObject
+        oFieldOnDeeplyNestedObject
+        pFieldOnDeeplyNestedObject
+        qFieldOnDeeplyNestedObject
+        rFieldOnDeeplyNestedObject
+        sFieldOnDeeplyNestedObject
+        tFieldOnDeeplyNestedObject
+        uFieldOnDeeplyNestedObject
+        vFieldOnDeeplyNestedObject
+        wFieldOnDeeplyNestedObject
+        xFieldOnDeeplyNestedObject
+        yFieldOnDeeplyNestedObject
+        zFieldOnDeeplyNestedObject
+      }
+    }
+    c: nestedObjects {
+      deeplyNestedObjects {
+        aFieldOnDeeplyNestedObject
+        bFieldOnDeeplyNestedObject
+        cFieldOnDeeplyNestedObject
+        dFieldOnDeeplyNestedObject
+        eFieldOnDeeplyNestedObject
+        fFieldOnDeeplyNestedObject
+        gFieldOnDeeplyNestedObject
+        hFieldOnDeeplyNestedObject
+        iFieldOnDeeplyNestedObject
+        jFieldOnDeeplyNestedObject
+        kFieldOnDeeplyNestedObject
+        lFieldOnDeeplyNestedObject
+        mFieldOnDeeplyNestedObject
+        nFieldOnDeeplyNestedObject
+        oFieldOnDeeplyNestedObject
+        pFieldOnDeeplyNestedObject
+        qFieldOnDeeplyNestedObject
+        rFieldOnDeeplyNestedObject
+        sFieldOnDeeplyNestedObject
+        tFieldOnDeeplyNestedObject
+        uFieldOnDeeplyNestedObject
+        vFieldOnDeeplyNestedObject
+        wFieldOnDeeplyNestedObject
+        xFieldOnDeeplyNestedObject
+        yFieldOnDeeplyNestedObject
+        zFieldOnDeeplyNestedObject
+      }
+    }
+    d: nestedObjects {
+      deeplyNestedObjects {
+        aFieldOnDeeplyNestedObject
+        bFieldOnDeeplyNestedObject
+        cFieldOnDeeplyNestedObject
+        dFieldOnDeeplyNestedObject
+        eFieldOnDeeplyNestedObject
+        fFieldOnDeeplyNestedObject
+        gFieldOnDeeplyNestedObject
+        hFieldOnDeeplyNestedObject
+        iFieldOnDeeplyNestedObject
+        jFieldOnDeeplyNestedObject
+        kFieldOnDeeplyNestedObject
+        lFieldOnDeeplyNestedObject
+        mFieldOnDeeplyNestedObject
+        nFieldOnDeeplyNestedObject
+        oFieldOnDeeplyNestedObject
+        pFieldOnDeeplyNestedObject
+        qFieldOnDeeplyNestedObject
+        rFieldOnDeeplyNestedObject
+        sFieldOnDeeplyNestedObject
+        tFieldOnDeeplyNestedObject
+        uFieldOnDeeplyNestedObject
+        vFieldOnDeeplyNestedObject
+        wFieldOnDeeplyNestedObject
+        xFieldOnDeeplyNestedObject
+        yFieldOnDeeplyNestedObject
+        zFieldOnDeeplyNestedObject
+      }
+    }
+    e: nestedObjects {
+      deeplyNestedObjects {
+        aFieldOnDeeplyNestedObject
+        bFieldOnDeeplyNestedObject
+        cFieldOnDeeplyNestedObject
+        dFieldOnDeeplyNestedObject
+        eFieldOnDeeplyNestedObject
+        fFieldOnDeeplyNestedObject
+        gFieldOnDeeplyNestedObject
+        hFieldOnDeeplyNestedObject
+        iFieldOnDeeplyNestedObject
+        jFieldOnDeeplyNestedObject
+        kFieldOnDeeplyNestedObject
+        lFieldOnDeeplyNestedObject
+        mFieldOnDeeplyNestedObject
+        nFieldOnDeeplyNestedObject
+        oFieldOnDeeplyNestedObject
+        pFieldOnDeeplyNestedObject
+        qFieldOnDeeplyNestedObject
+        rFieldOnDeeplyNestedObject
+        sFieldOnDeeplyNestedObject
+        tFieldOnDeeplyNestedObject
+        uFieldOnDeeplyNestedObject
+        vFieldOnDeeplyNestedObject
+        wFieldOnDeeplyNestedObject
+        xFieldOnDeeplyNestedObject
+        yFieldOnDeeplyNestedObject
+        zFieldOnDeeplyNestedObject
+      }
+    }
+    f: nestedObjects {
+      deeplyNestedObjects {
+        aFieldOnDeeplyNestedObject
+        bFieldOnDeeplyNestedObject
+        cFieldOnDeeplyNestedObject
+        dFieldOnDeeplyNestedObject
+        eFieldOnDeeplyNestedObject
+        fFieldOnDeeplyNestedObject
+        gFieldOnDeeplyNestedObject
+        hFieldOnDeeplyNestedObject
+        iFieldOnDeeplyNestedObject
+        jFieldOnDeeplyNestedObject
+        kFieldOnDeeplyNestedObject
+        lFieldOnDeeplyNestedObject
+        mFieldOnDeeplyNestedObject
+        nFieldOnDeeplyNestedObject
+        oFieldOnDeeplyNestedObject
+        pFieldOnDeeplyNestedObject
+        qFieldOnDeeplyNestedObject
+        rFieldOnDeeplyNestedObject
+        sFieldOnDeeplyNestedObject
+        tFieldOnDeeplyNestedObject
+        uFieldOnDeeplyNestedObject
+        vFieldOnDeeplyNestedObject
+        wFieldOnDeeplyNestedObject
+        xFieldOnDeeplyNestedObject
+        yFieldOnDeeplyNestedObject
+        zFieldOnDeeplyNestedObject
+      }
+    }
+  }
+}
+
+query BigQuery($delay: Int!, $bigObjects: Int!, $deeplyNestedObjects: Int!, $nestedObjects: Int!) {
+  bigResponse(
+    artificialDelay: $delay
+    bigObjects: $bigObjects
+    deeplyNestedObjects: $deeplyNestedObjects
+    nestedObjects: $nestedObjects
+  ) {
+    a: nestedObjects {
+      ...DeeplyNestedFields
+    }
+    b: nestedObjects {
+      ...DeeplyNestedFields
+    }
+    c: nestedObjects {
+      ...DeeplyNestedFields
+    }
+    d: nestedObjects {
+      ...DeeplyNestedFields
+    }
+    e: nestedObjects {
+      ...DeeplyNestedFields
+    }
+    f: nestedObjects {
+      ...DeeplyNestedFields
+    }
+  }
+}
+fragment DeeplyNestedFields on NestedObject {
+  deeplyNestedObjects {
+    aFieldOnDeeplyNestedObject
+    bFieldOnDeeplyNestedObject
+    cFieldOnDeeplyNestedObject
+    dFieldOnDeeplyNestedObject
+    eFieldOnDeeplyNestedObject
+    fFieldOnDeeplyNestedObject
+    gFieldOnDeeplyNestedObject
+    hFieldOnDeeplyNestedObject
+    iFieldOnDeeplyNestedObject
+    jFieldOnDeeplyNestedObject
+    kFieldOnDeeplyNestedObject
+    lFieldOnDeeplyNestedObject
+    mFieldOnDeeplyNestedObject
+    nFieldOnDeeplyNestedObject
+    oFieldOnDeeplyNestedObject
+    pFieldOnDeeplyNestedObject
+    qFieldOnDeeplyNestedObject
+    rFieldOnDeeplyNestedObject
+    sFieldOnDeeplyNestedObject
+    tFieldOnDeeplyNestedObject
+    uFieldOnDeeplyNestedObject
+    vFieldOnDeeplyNestedObject
+    wFieldOnDeeplyNestedObject
+    xFieldOnDeeplyNestedObject
+    yFieldOnDeeplyNestedObject
+    zFieldOnDeeplyNestedObject
+  }
+}
+
 query {
   employees {
     # resolved through employees subgraph
@@ -109,14 +352,12 @@ query {
       name
     }
   }
-  a: findEmployees(criteria: {
-    hasPets: true, nationality: UKRAINIAN, nested: { maritalStatus: ENGAGED }
-  }) {
+  a: findEmployees(criteria: { hasPets: true, nationality: UKRAINIAN, nested: { maritalStatus: ENGAGED } }) {
     ...EmployeeNameFragment
   }
-  b: findEmployees(criteria: {
-    hasPets: true, nationality: GERMAN, nested: { maritalStatus: MARRIED, hasChildren: true }
-  }) {
+  b: findEmployees(
+    criteria: { hasPets: true, nationality: GERMAN, nested: { maritalStatus: MARRIED, hasChildren: true } }
+  ) {
     ...EmployeeNameFragment
   }
 }
